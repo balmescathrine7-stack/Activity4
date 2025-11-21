@@ -9,15 +9,16 @@ CREATE TABLE owners(
     email VARCHAR(100)
 );
 
-
--- Pets table
-CREATE TABLE pets (
-    pet_id INT AUTO_INCREMENT PRIMARY KEY,
-    owner_id INT,
-    pet_name VARCHAR(100),
+CREATE TABLE animals (
+    animalid INT PRIMARY KEY,
+    name VARCHAR(50),
     species VARCHAR(50),
-    breed VARCHAR(100),
-    FOREIGN KEY (owner_id) REFERENCES owners(owner_id)
+    breed VARCHAR(50),
+    dateofbirth DATE,
+    gender VARCHAR(10),
+    color VARCHAR(50),
+    ownerid INT,
+    FOREIGN KEY (ownerid) REFERENCES owners(ownerid)
 );
 
 -- Appointments table
