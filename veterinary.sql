@@ -1,7 +1,4 @@
--- Create database
-CREATE DATABASE IF NOT EXISTS veterinary;
-USE veterinary;
-
+CREATE DATABASE veterinary;
 -- Owners table
 CREATE TABLE owners (
     owner_id INT AUTO_INCREMENT PRIMARY KEY,
