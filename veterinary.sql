@@ -91,3 +91,16 @@ INSERT INTO appointments (appointid, animalid, appointdate, reason) VALUES
 (8, 8, '2024-01-27', 'Wing check-up'),
 (9, 9, '2024-01-29', 'Vaccination'),
 (10, 10, '2024-02-01', 'General consultation');
+
+INSERT INTO doctors(doctorid, dfirstname, dlastname, specialization, phone, email)
+VALUES
+(1, 'Dr.Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
+(2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
+(3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
+(4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@example.com'),
+(5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
+(6, 'Dr.Carmen', 'Fernandez', 'Ophthalmology Specialist', '333-222-1111', 'carmen@example.com'),
+(7, 'Dr.Jose', 'Ramos', 'Cardiology Specialist', '222-333-4444', 'jose@example.com'),
+(8, 'Dr.Erica', 'Navarro', 'Exotic Animal Specialist', '444-555-6666', 'erica@example.com'),
+(9, 'Dr.Miguel', 'Cruz', 'Neurology Specialist', '777-888-9999', 'miguel@example.com'),
+(10, 'Dr.Karen', 'Flores', 'Dental Specialist', '666-777-8888', 'karen@example.com');
