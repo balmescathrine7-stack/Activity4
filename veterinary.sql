@@ -76,6 +76,18 @@ INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color,
 (5, 'Max', 'Dog', 'Beagle', '2017-11-25', 'Male', 'Tricolor', 5),
 (6, 'Bella', 'Dog', 'Poodle', '2019-09-13', 'Female', 'White', 6),
 (7, 'Charlie', 'Dog', 'Shih Tzu', '2020-04-02', 'Male', 'Black & White', 7),
-(8, 'Coco', 'Bird', 'Parrot', '2022-02-14', 'Female', 'Green', 😎,
+(8, 'Coco', 'Bird', 'Parrot', '2022-02-14', 'Female', 'Green'),
 (9, 'Thor', 'Dog', 'Rottweiler', '2016-06-19', 'Male', 'Black', 9),
 (10, 'Snow', 'Cat', 'Maine Coon', '2018-12-30', 'Female', 'Gray', 10);
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason) VALUES
+(1, 1, '2024-01-10', 'Vaccination'),
+(2, 2, '2024-01-12', 'Skin allergy'),
+(3, 3, '2024-01-15', 'Regular check-up'),
+(4, 4, '2024-01-18', 'Fever and cold'),
+(5, 5, '2024-01-20', 'Injury treatment'),
+(6, 6, '2024-01-22', 'Dental cleaning'),
+(7, 7, '2024-01-25', 'Nail trimming'),
+(8, 8, '2024-01-27', 'Wing check-up'),
+(9, 9, '2024-01-29', 'Vaccination'),
+(10, 10, '2024-02-01', 'General consultation');
