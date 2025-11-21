@@ -21,11 +21,10 @@ CREATE TABLE animals (
     FOREIGN KEY (ownerid) REFERENCES owners(ownerid)
 );
 
--- Appointments table
 CREATE TABLE appointments (
-    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
-    pet_id INT,
-    appointment_date DATE,
+    appointid INT PRIMARY KEY,
+    animalid INT,
+    appointdate DATE,
     reason VARCHAR(255),
-    FOREIGN KEY (pet_id) REFERENCES pets(pet_id)
+    FOREIGN KEY (animalid) REFERENCES animals(animalid)
 );
