@@ -46,3 +46,12 @@ CREATE TABLE invoices (
     status VARCHAR(50),
     FOREIGN KEY (appointid) REFERENCES appointments(appointid)
 );
+
+CREATE TABLE medicalrecords (
+    recordid INT PRIMARY KEY,
+    animalid INT,
+    diagnosis VARCHAR(255),
+    treatment VARCHAR(255),
+    recorddate DATE,
+    FOREIGN KEY (animalid) REFERENCES animals(animalid)
+);
