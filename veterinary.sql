@@ -1,11 +1,14 @@
 CREATE DATABASE veterinary;
--- Owners table
-CREATE TABLE owners (
-    owner_id INT AUTO_INCREMENT PRIMARY KEY,
-    last_name VARCHAR(100),
-    first_name VARCHAR(100),
-    phone VARCHAR(20)
+
+CREATE TABLE owners(
+    ownerid INT PRIMARY KEY,
+    ofirstname VARCHAR(50),
+    olastname VARCHAR(50),
+    address VARCHAR(100),
+    phone VARCHAR(15),
+    email VARCHAR(100)
 );
+
 
 -- Pets table
 CREATE TABLE pets (
